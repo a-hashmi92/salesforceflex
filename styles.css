@@ -198,7 +198,7 @@ a{color:inherit;text-decoration:none}
 /* Salesforce Flex logo sizing */
 .site-logo{
   display:block;
-  height:30px;
+  height:50px;
   width:auto;
   max-width:150px;
   object-fit:contain;
