@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Selected Salesforce Flex consulting case studies and project work.">
+<title>Projects &amp; Case Studies | Salesforce Flex</title><link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/logo_transparent_background.png" type="image/png">
+<style>
+.listing-hero{padding:70px 0;background:linear-gradient(115deg,#f9fbff,#eef2ff)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:60px 0 85px}
+.project-card{border:1px solid var(--line);border-radius:15px;padding:25px;background:white;display:flex;flex-direction:column;align-items:flex-start}
+.tag{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--blue)}
+.project-card h2{font-size:21px;line-height:1.3;color:var(--navy);margin:12px 0}
+.project-card p{font-size:13px;line-height:1.8;color:var(--muted);margin:0 0 20px}
+.project-card .back-link{margin-top:auto}
+@media(max-width:760px){.cards{grid-template-columns:1fr;padding:38px 0 55px}.listing-hero{padding:48px 0}}
+</style></head><body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="Salesforce Flex home"><img class="site-logo" src="assets/logo_transparent_background.png" alt="Salesforce Flex"></a><nav class="nav" aria-label="Main navigation"><a href="index.html#services">Services</a><a href="projects.html">Projects</a><a class="nav-cta" href="index.html#contact">Let's talk ↗</a></nav></div></header>
+<main><section class="listing-hero"><div class="container"><div class="eyebrow">Selected work</div><h1>Projects &amp; case studies</h1><p class="lead">Open a project to read its summary and download the full case study.</p></div></section>
+<div class="container cards"><article class="project-card"><span class="tag">Salesforce · DocuSign Gen</span><h2>Streamlining document generation</h2><p>A document automation initiative focused on reducing manual effort and shortening document turnaround time.</p><a class="back-link" href="projects/docusign-gen-automation.html">Read case study →</a></article>
+<article class="project-card"><span class="tag">Reusable template</span><h2>Your next project</h2><p>Duplicate the reusable project page template, add verified project details and link the relevant PDF.</p><a class="back-link" href="project-template.html">Open reusable template →</a></article></div></main>
+<footer class="footer"><div class="container footer-row"><span>© <span id="year"></span> Salesforce Flex. All rights reserved.</span><a class="back-link" href="index.html">Back to home ↑</a></div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script></body></html>
